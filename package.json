@@ -1,0 +1,25 @@
+{
+  "name": "typescriptstarterboileplate",
+  "version": "1.0.0",
+  "description": "Typescript boileplate",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Chouinard",
+  "license": "ISC",
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/ianchouinard/Typescript-Starter.git"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.7",
+    "gulp-util": "^3.0.8",
+    "tsify": "^3.0.1",
+    "typescript": "^2.3.4",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  }
+}
